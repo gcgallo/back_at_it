@@ -96,7 +96,21 @@ function draw(){
 		
 		
 	}
-	else if(x > 1534){
+	
+	else if(x < 1788){
+		
+		tint(255, 1788 - x);
+		
+		image(img[6], 0, 0, w, h);
+		
+		tint(255, x - 1534);
+		
+		image(img[7], 0, 0, w, h);
+		
+		
+	}
+	
+	else if(x > 1788){
 		x = 0;
 		
 	}
