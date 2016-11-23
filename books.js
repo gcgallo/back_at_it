@@ -16,6 +16,7 @@ function setup(){
 	img.push(loadImage("download3.png"));
 	img.push(loadImage("download2.png"));
 	img.push(loadImage("download1.png"));
+	img.push(loadImage("download0.png"));
 	w = 725;
 	h = 480;
 }
@@ -100,10 +101,15 @@ function draw(){
 		
 	}
 	
-	x+=8;
+	x+= getRandomInt(0, 1534);
 	print(x);
 	
 }
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 /*
 function mouseWheel(event){
 	
