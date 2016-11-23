@@ -100,7 +100,7 @@ function draw(){
 		
 	}
 	
-	x+=4;
+	x+=8;
 	print(x);
 	
 }
