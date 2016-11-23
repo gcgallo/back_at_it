@@ -15,7 +15,7 @@ function setup(){
 	img.push(loadImage("download4.png"));
 	img.push(loadImage("download3.png"));
 	img.push(loadImage("download2.png"));
-	img.push(loadImage("download1.png));
+	img.push(loadImage("download1.png"));
 	w = 725;
 	h = 480;
 }
