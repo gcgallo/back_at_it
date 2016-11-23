@@ -23,11 +23,7 @@ function setup(){
 
 function draw(){
     
-	if (x < 0){
-		x = 0;
-	}
-	
-	else if (x < 255){
+	if (x < 255){
 		
 		tint(255, 255 - x);
 		
@@ -105,6 +101,7 @@ function draw(){
 	}
 	
 	x++;
+	print(x);
 	
 }
 /*
