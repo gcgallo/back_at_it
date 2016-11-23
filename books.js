@@ -9,15 +9,15 @@ var easing = .3;
 function setup(){
     
 	createCanvas(720, 600);
-	img.push(loadImage("book6.jpg"));
-	img.push(loadImage("book53.jpg"));
-	img.push(loadImage("book5.jpg"));
-	img.push(loadImage("book44.jpg"));
-	img.push(loadImage("book3.jpg"));
-	img.push(loadImage("book2.jpg"));
-	img.push(loadImage("book1.jpg"));
-	w = 500;
-	h = 500;
+	img.push(loadImage("download7.png"));
+	img.push(loadImage("download6.png"));
+	img.push(loadImage("download5.png"));
+	img.push(loadImage("download4.png"));
+	img.push(loadImage("download3.png"));
+	img.push(loadImage("download2.png"));
+	img.push(loadImage("download1.png));
+	w = 725;
+	h = 480;
 }
 
 
