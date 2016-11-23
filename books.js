@@ -100,13 +100,14 @@ function draw(){
 		
 	}
 	else if(x > 1534){
-		x = 1534;
+		x = 0;
 		
 	}
-
+	
+	x++;
 	
 }
-
+/*
 function mouseWheel(event){
 	
 	
@@ -118,4 +119,4 @@ function mouseWheel(event){
 	//y += event.delta;
 	
 	
-}
+}*/
