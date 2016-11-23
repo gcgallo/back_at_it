@@ -17,7 +17,7 @@ function setup(){
 	img.push(loadImage("download2.png"));
 	img.push(loadImage("download1.png"));
 	img.push(loadImage("download0.png"));
-	w = 725;
+	w = 730;
 	h = 480;
 }
 
@@ -115,7 +115,7 @@ function draw(){
 		
 	}
 	
-	x+= getRandomInt(0, 1534);
+	x+= getRandomInt(0, 1788);
 	print(x);
 	
 }
